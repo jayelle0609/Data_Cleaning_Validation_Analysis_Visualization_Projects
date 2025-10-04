@@ -29,6 +29,7 @@ Each project will have 4-5 sections.
   - Aggregation / group analysis : df.groupby('col')[agg : value_counts(), mean()
   - Correlation : df.corr()  --> numeric cols only, linear rs
   - Feature Engineering : Combine new features, PCA to reduce dimensionality
+  - Feature importance
 
 ## 4. Data Visualization (matplotlib, seaborn, plotly, bokeh, altair or tableau)
   - Histograms, distribution of continuous data, checks for normality : sns.histplot(df['col1']) or df['col1'].hist()
