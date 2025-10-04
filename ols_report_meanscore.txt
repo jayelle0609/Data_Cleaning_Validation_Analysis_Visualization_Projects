@@ -1,0 +1,29 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:             mean_score   R-squared:                       0.206
+Model:                            OLS   Adj. R-squared:                  0.202
+Method:                 Least Squares   F-statistic:                     51.67
+Date:                Sun, 05 Oct 2025   Prob (F-statistic):           1.07e-47
+Time:                        05:39:44   Log-Likelihood:                -3960.2
+No. Observations:                1000   AIC:                             7932.
+Df Residuals:                     994   BIC:                             7962.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+===============================================================================================
+                                  coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                          66.2642      1.331     49.775      0.000      63.652      68.877
+gender                         -3.9425      0.806     -4.891      0.000      -5.524      -2.361
+race/ethnicity                  2.0238      0.349      5.803      0.000       1.339       2.708
+parental level of education    -0.6349      0.220     -2.881      0.004      -1.067      -0.202
+lunch                           8.6465      0.843     10.259      0.000       6.993      10.300
+test preparation course        -7.7749      0.840     -9.251      0.000      -9.424      -6.126
+==============================================================================
+Omnibus:                       10.953   Durbin-Watson:                   2.050
+Prob(Omnibus):                  0.004   Jarque-Bera (JB):               11.160
+Skew:                          -0.259   Prob(JB):                      0.00377
+Kurtosis:                       2.978   Cond. No.                         14.1
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

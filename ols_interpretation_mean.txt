@@ -1,0 +1,12 @@
+=== Regression Interpretation for mean_score ===
+
+Model R-squared: 0.206
+
+- A one unit increase in **gender** decreases the mean_score by approximately 3.942 points, and this effect is statistically significant (p = 0.0000).
+- A one unit increase in **race/ethnicity** increases the mean_score by approximately 2.024 points, and this effect is statistically significant (p = 0.0000).
+- A one unit increase in **parental level of education** decreases the mean_score by approximately 0.635 points, and this effect is statistically significant (p = 0.0041).
+- A one unit increase in **lunch** increases the mean_score by approximately 8.646 points, and this effect is statistically significant (p = 0.0000).
+- A one unit increase in **test preparation course** decreases the mean_score by approximately 7.775 points, and this effect is statistically significant (p = 0.0000).
+
+================================================================================
+

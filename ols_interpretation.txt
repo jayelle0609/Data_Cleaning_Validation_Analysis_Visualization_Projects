@@ -1,0 +1,42 @@
+=== Regression Interpretation for 'math score' ===
+
+Model R-squared: 0.867 (proportion of variance in 'math score' explained by the predictors)
+
+- When 'reading score' increases by one unit, the 'math score' is expected to increase by about 0.335 points, and this effect is statistically significant (p-value = 0.0000).
+- When 'writing score' increases by one unit, the 'math score' is expected to increase by about 0.616 points, and this effect is statistically significant (p-value = 0.0000).
+- When 'gender' increases by one unit, the 'math score' is expected to increase by about 13.072 points, and this effect is statistically significant (p-value = 0.0000).
+- When 'race/ethnicity' increases by one unit, the 'math score' is expected to increase by about 0.849 points, and this effect is statistically significant (p-value = 0.0000).
+- When 'parental level of education' increases by one unit, the 'math score' is expected to increase by about 0.082 points, and this effect is not statistically significant (p-value = 0.3940).
+- When 'lunch' increases by one unit, the 'math score' is expected to increase by about 3.523 points, and this effect is statistically significant (p-value = 0.0000).
+- When 'test preparation course' increases by one unit, the 'math score' is expected to increase by about 3.020 points, and this effect is statistically significant (p-value = 0.0000).
+
+================================================================================
+
+=== Regression Interpretation for 'reading score' ===
+
+Model R-squared: 0.923 (proportion of variance in 'reading score' explained by the predictors)
+
+- When 'math score' increases by one unit, the 'reading score' is expected to increase by about 0.179 points, and this effect is statistically significant (p-value = 0.0000).
+- When 'writing score' increases by one unit, the 'reading score' is expected to increase by about 0.797 points, and this effect is statistically significant (p-value = 0.0000).
+- When 'gender' increases by one unit, the 'reading score' is expected to decrease by about 0.722 points, and this effect is not statistically significant (p-value = 0.0796).
+- When 'race/ethnicity' increases by one unit, the 'reading score' is expected to decrease by about 0.370 points, and this effect is statistically significant (p-value = 0.0012).
+- When 'parental level of education' increases by one unit, the 'reading score' is expected to increase by about 0.086 points, and this effect is not statistically significant (p-value = 0.2264).
+- When 'lunch' increases by one unit, the 'reading score' is expected to decrease by about 1.173 points, and this effect is statistically significant (p-value = 0.0001).
+- When 'test preparation course' increases by one unit, the 'reading score' is expected to increase by about 1.552 points, and this effect is statistically significant (p-value = 0.0000).
+
+================================================================================
+
+=== Regression Interpretation for 'writing score' ===
+
+Model R-squared: 0.940 (proportion of variance in 'writing score' explained by the predictors)
+
+- When 'math score' increases by one unit, the 'writing score' is expected to increase by about 0.280 points, and this effect is statistically significant (p-value = 0.0000).
+- When 'reading score' increases by one unit, the 'writing score' is expected to increase by about 0.677 points, and this effect is statistically significant (p-value = 0.0000).
+- When 'gender' increases by one unit, the 'writing score' is expected to decrease by about 5.771 points, and this effect is statistically significant (p-value = 0.0000).
+- When 'race/ethnicity' increases by one unit, the 'writing score' is expected to increase by about 0.103 points, and this effect is not statistically significant (p-value = 0.3322).
+- When 'parental level of education' increases by one unit, the 'writing score' is expected to decrease by about 0.167 points, and this effect is statistically significant (p-value = 0.0103).
+- When 'lunch' increases by one unit, the 'writing score' is expected to increase by about 0.133 points, and this effect is not statistically significant (p-value = 0.6221).
+- When 'test preparation course' increases by one unit, the 'writing score' is expected to decrease by about 3.410 points, and this effect is statistically significant (p-value = 0.0000).
+
+================================================================================
+
