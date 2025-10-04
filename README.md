@@ -2,7 +2,7 @@
 
 Each project will have 4-5 sections.
 
-1. Data Preprocessing / Data Cleaning
+## 1. Data Preprocessing / Data Cleaning
   - Mean/mode/median imputation for missing values
   - Drop unnecessary columns : df.drop[listofcols], listofcols = ['col1','col2']
   - Drop rows with all nulls : df.dropna(how='all', axis =0)
@@ -16,7 +16,7 @@ Each project will have 4-5 sections.
   - Convert categorical data into dummy variables (for ML purposes, with one hot encoding or label encoding)
   - pd.merge or pd.join if joining multiple data files
     
-2. Data Validation
+## 2. Data Validation
   - Check for valid ranges and values (no negative ages)
   - Check unique IDs, no duplicates
   - Use data constraints for... type checks, value checks (ex. gender should only have M/F, no other values)
@@ -24,13 +24,13 @@ Each project will have 4-5 sections.
   - Check against database if customer exists
   - Check  if email is in correct format, IC is in correct format (regex)
 
-3. Exploratory Data Analysis
+## 3. Exploratory Data Analysis
   - Descriptive statistics : df.info(), df.describe(), df.shape
   - Aggregation / group analysis : df.groupby('col')[agg : value_counts(), mean()
   - Correlation : df.corr()  --> numeric cols only, linear rs
   - Feature Engineering : Combine new features, PCA to reduce dimensionality
 
-4. Data Visualization (matplotlib, seaborn, plotly, bokeh, altair or tableau)
+## 4. Data Visualization (matplotlib, seaborn, plotly, bokeh, altair or tableau)
   - Histograms, distribution of continuous data, checks for normality : sns.histplot(df['col1']) or df['col1'].hist()
         - Statistical tests to check for normality, skew, kurtosis :
         - KDE = true
@@ -42,7 +42,7 @@ Each project will have 4-5 sections.
   - Line charts (trend over time)
   - Pie chart, donut chart
 
-5. Predictions using Machine Learning (sci-kit learn, tensorflow, keras, pytorch, prophet, statsmodels, scipy)
+## 5. Predictions using Machine Learning (sci-kit learn, tensorflow, keras, pytorch, prophet, statsmodels, scipy)
   - Feature Engineering
        - Select relevant columns
        - Create new features
