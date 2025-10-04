@@ -32,8 +32,9 @@ Each project will have 4-5 sections.
 
 ## 4. Data Visualization (matplotlib, seaborn, plotly, bokeh, altair or tableau)
   - Histograms, distribution of continuous data, checks for normality : sns.histplot(df['col1']) or df['col1'].hist()
-        - Statistical tests to check for normality, skew, kurtosis :
-        - KDE = true
+      - Statistical tests to check for normality, skew, kurtosis : Omnibus, Jarque-Bera, Shapiro-Wilk, Durbin-Watson Test (autocorrelation) Q-Q plot, homoscedasticity/heteroscedsticity (constant varience of errors for normality of residuals), no multicollinearity (betw predictors)
+      - KDE = true
+      - import statsmodels as sm
   - Bar charts : categorical comparison
   - Box plots : outlier detection, distribution, helps to check for normality, skew, kurtotsis (if mean == median)
   - Violin plots
@@ -57,9 +58,9 @@ Each project will have 4-5 sections.
   - Model evaluation
        - MAE, MSE, R2 --> regression metrics
        - Accuracy, Precision, Recall, F1 score, confusion matrix --> classification metrics
-             - MAE, MSE, RMSE, MAPE, SMAPE --> time series analysis, regression type forecasts (numeric)
-             - AIC, BIC, R2, **cross validation error** (rolling window --> impt, can compare to existing values~!)
-             - (ARIMA, SARIMA, ETS, Holts Winters - triple exponential smoothing, etc)
-             - Preprocessing TSA : resample, differencing, lag features, ADF test, cross validation (lags)
-             - statsmodel OLS regression
+            - MAE, MSE, RMSE, MAPE, SMAPE --> time series analysis, regression type forecasts (numeric)
+            - AIC, BIC, R2, **cross validation error** (rolling window --> impt, can compare to existing values~!
+            - (ARIMA, SARIMA, ETS, Holts Winters - triple exponential smoothing, etc)
+            - Preprocessing TSA : resample, differencing, lag features, ADF test, cross validation (lags)
+            - statsmodel OLS regression
     
